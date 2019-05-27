@@ -70,7 +70,7 @@ function doComplete() {
 
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycby1rrsIThA1slSZ0LSe6mUog9wJTIExTl40EZpYyw/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxiL9IdbozeoiX0L44sjy2ol2waQIgV6F4eOKUrkK48FoFlCUro/exec';
 form.addEventListener('submit', e => {
     e.preventDefault(); 
     document.querySelector('.js-loading').classList.remove('is-hidden');
