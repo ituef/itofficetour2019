@@ -153,13 +153,25 @@
                 <h2 style="color: blue; font-weight: bold; font-size:15px; line-height:46px">KHOA CÔNG NGHỆ THÔNG TIN</h2>
             </div>
         </div>
-        <div id="main-content">          
-            <h2 style="text-align:center; color: red; font-weight: bold">Talkshow</h2>
-            <h1 style="text-align:center"><span style="color:#f3b80d">GLOBAL</span> <span style="color:#0062f9"> IT CAREER PATH</span> </h1>
-            <a style="text-align:center; color: #18a7ef; font-weight: bold; font-style: italic">8h00 - 11h30, ngày 11 tháng 05 năm 2019</a>
-            <h2 style="text-align:center; color: red; font-weight: bold">ĐĂNG KÝ THAM DỰ CHƯƠNG TRÌNH</h2>
+        <div id="main-content">    
+            <p style="text-align:justify; font-size:16px">Nhắm mục đích: Giúp sinh viên khoa CNTT hiểu thêm về thực tế công việc mà mình sẽ trải qua trong tương lai, định hướng được ngành nghề một cách rõ ràng nhất. 
+            Đồng thời, có thể từ đó có mục tiêu phấn đấu, tìm ra được các phương pháp học tập hiệu quả hơn. Khoa CNTT Đại học Kinh tế Tài chính TP.HCM - UEF tổ chức chuyến tham quan doanh nghiệp tại: <span style="color:#f3b80d">CÔNG TY TNHH PHẦN MỀM </span> <span style="color:#0062f9"> DEK TECHNOLOGIES VIỆT NAM</span> -  <span style="color:#f3b80d">CÔNG TY PHẦN MỀM </span> <span style="color:#0062f9"> FPT SOFTWARE HCM.</span> </p>      
+            <h2 style="text-align:center; color: red; font-weight: bold">​IT OFFICE TOUR</h2>
+            <a style="text-align:center; font-size:28px; font-weight:bold" href="https://www.dektech.com.au/vietnam" target="_blank"><span style="color:#f3b80d">CÔNG TY TNHH PHẦN MỀM </span> <span style="color:#0062f9"> DEK TECHNOLOGIES VIỆT NAM</span> </a>
+            <a style="text-align:center; color: #18a7ef; font-weight: bold; font-style: italic">8h00 - 11h00, ngày 14 tháng 06 năm 2019</a>
+            <a style="text-align:center;font-size:28px; font-weight:bold" href="https://www.fpt-software.com" target="_blank"><span style="color:#f3b80d">CÔNG TY PHẦN MỀM </span> <span style="color:#0062f9"> FPT SOFTWARE HCM</span> </a>
+            <a style="text-align:center; color: #18a7ef; font-weight: bold; font-style: italic">8h00 - 11h00, ngày 21 tháng 06 năm 2019</a>
+            <h2 style="text-align:center; color: red; font-weight: bold">ĐĂNG KÝ THAM DỰ CHƯƠNG TRÌNH THAM QUAN DOANH NGHIỆP</h2>
             <br />
             <form name="submit-to-google-sheet" class="js-showupdate">
+                <div class="form-wrapper">
+                    <label for="txtLop">CHỌN THAM QUAN DOANH NHIỆP</label>
+                    <select name="txtDoanhNghiep" class="form-control">
+                        <option value="1">FPT SOFTWARE</option>
+                        <option value="2">DEK TECHNOLOGIES</option>
+                        <option value="0" selected>CẢ HAI</option>
+                    </select>
+                </div>
                 <div class="form-wrapper">
                     <label for="txtHoTen">HỌ VÀ TÊN</label>
                     <input id="inHoTen" type="text" name="txtHoTen" placeholder="Họ và tên sinh viên" class="form-control" required>
@@ -179,7 +191,7 @@
                 <div class="form-wrapper">
                     <label for="txtLop">LỚP</label>
                     <input id="inLop" type="text" name="txtLop" placeholder="Lớp" class="form-control" required>
-                </div>
+                </div> 
                 <button id="btnDoSV" type="submit" >ĐĂNG KÝ</button>
             </form>
             <h1 class="js-success-message is-hidden" style="color:seagreen;margin-top: 70px; text-align:center">ĐĂNG KÝ THÀNH CÔNG</h1>

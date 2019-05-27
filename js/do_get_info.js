@@ -27,17 +27,19 @@ function stepSetSinhVien() {
         return false;
     }
     var email = $.trim($("input[name='txtEmail']").val());
-    if(email == ''){
+    if(email == '' || email){
         alert("VUI LÒNG NHẬP EMAIL");
         return false;
     }
     var phone = $.trim($("input[name='txtPhone']").val());
-    if(phone == ''){
+    var pn = lop.length;
+    if(phone == '' || pn !=10){
         alert("VUI LÒNG NHẬP SỐ ĐIỆN THOẠI");
         return false;
     }
     var lop = $.trim($("input[name='txtLop']").val());
-    if(lop == ''){
+    var n = lop.length;
+    if(lop == '' || n<10){
         alert("VUI LÒNG NHẬP TÊN LỚP");
         return false;
     }
